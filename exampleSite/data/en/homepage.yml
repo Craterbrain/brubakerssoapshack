@@ -6,7 +6,7 @@ banner:
     tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur
     adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima
     hic at, nostrum nihil!
-  image: "/static/images/IMG_20200710_173842.webp"
+  image: images/IMG_20200710_173842.webp
   button:
     enable: true
     label: Browse All Products
