@@ -53,7 +53,7 @@ about_product:
   enable: true
   title: Why Choose Apple Watch
   items:
-  - image: "/static/images/IMG_20200710_173847.webp"
+  - image: images/IMG_20200710_173847.webp
     title: Lorem ipsum dolor sit amet.
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
       sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis
@@ -62,7 +62,7 @@ about_product:
       enable: false
       label: Check Features
       link: "#"
-  - image: "/static/images/IMG_20200710_174049.webp"
+  - image: images/IMG_20200710_174049.webp
     title: Lorem ipsum dolor sit amet.
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
       sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis
