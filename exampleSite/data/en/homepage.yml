@@ -76,10 +76,10 @@ products:
   title: Checkout Our All Products
 subscription:
   enable: true
-  bg_image: images/call-to-action.jpg
+  bg_image: static/images/IMG_20200710_175015.webp
   title: Get Product Updates
   content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  placeholder: Your Email Address Here
+  placeholder: ''
 testimonial:
   enable: true
   title: Watch Review
