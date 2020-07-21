@@ -6,6 +6,7 @@ theme = "vex-hugo"
 title = "Brubaker's Soap Shack"
 [Languages.en]
 contentDir = "content/english"
+imageDir = "static/images"
 copyright = "©2020, All Rights Reserved"
 languageCode = "en-us"
 languageName = "En"
