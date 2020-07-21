@@ -12,7 +12,7 @@ banner:
     label: Browse All Products
     link: products
 features:
-  enable: true
+  enable: false
   title: Our Core Features
   image: images/watch-2.png
   left_side:
@@ -42,8 +42,8 @@ features:
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem,
       inventore?
 promo:
-  enable: false
-  image: images/watch.png
+  enable: true
+  image: images/IMG_20200710_180256.webp
   title: Designed by professional , the benefit for creative gigs
   content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore,
     deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at
