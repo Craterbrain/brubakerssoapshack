@@ -1,7 +1,7 @@
 ---
 title: How to choose right watch for you.
 date: 2019-10-17T11:22:16.000+06:00
-image: "/static/images/IMG_20200710_174501.webp"
+image: "/images/IMG_20200710_174501.webp"
 description: this is a meta description
 
 ---
