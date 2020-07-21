@@ -79,7 +79,7 @@ subscription:
   bg_image: static/images/IMG_20200710_175015.webp
   title: Get Product Updates
   content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  placeholder: ''
+  placeholder: Brubakerssoapshack@gmail.com
 testimonial:
   enable: true
   title: Watch Review
