@@ -42,7 +42,7 @@ features:
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem,
       inventore?
 promo:
-  enable: true
+  enable: false
   image: images/watch.png
   title: Designed by professional , the benefit for creative gigs
   content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore,
@@ -53,7 +53,7 @@ about_product:
   enable: true
   title: Why Choose Apple Watch
   items:
-  - image: images/showcase/showcase-4.png
+  - image: "/static/images/IMG_20200710_173847.webp"
     title: Lorem ipsum dolor sit amet.
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
       sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis
@@ -62,7 +62,7 @@ about_product:
       enable: false
       label: Check Features
       link: "#"
-  - image: images/showcase/showcase-3.png
+  - image: "/static/images/IMG_20200710_174049.webp"
     title: Lorem ipsum dolor sit amet.
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
       sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis
