@@ -23,3 +23,7 @@ fields:
 - type: list
   name: sizes
   label: sizes
+- name: '1'
+  type: image_gallery
+  config: {}
+  label: '1'
