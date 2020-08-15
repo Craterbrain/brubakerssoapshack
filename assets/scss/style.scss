@@ -5,7 +5,7 @@ $primary-font: 'Josefin Sans',
 sans-serif;
 $secondary-font: 'Droid Serif',
 serif;
-$primary-color: #f9a743;
+$primary-color: #d5a069;
 $icon-font: 'themefisher-font' !important;
 
 /*--
@@ -15,7 +15,7 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 25px;
-  color: #3b4045;
+  color: #765b58;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
 }
@@ -27,7 +27,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
+  background-color: #f7fcfe;
   z-index: 999999;
   display: flex;
   align-items: center;
@@ -194,7 +194,7 @@ a:active {
 }
 
 .btn-main {
-  color: #fff;
+  color: #f7fcfe;
   border-radius: 30px;
   font-size: 18px;
   padding: 15px 40px;
@@ -206,7 +206,7 @@ a:active {
   &:hover,
   &:focus {
     background-color: $primary-color;
-    color: #fff;
+    color: #f7fcfe;
   }
 }
 
@@ -339,7 +339,7 @@ a:active {
       height: 50px;
 
       i {
-        color: #fff;
+        color: #f7fcfe;
         font-size: 30px;
         line-height: 40px;
         display: inline-block;
