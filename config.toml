@@ -8,7 +8,7 @@ summarylength = "20"
 # google analytics
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
-disableLanguages = [fr] # disable language from here
+disableLanguages = [] # disable language from here
 
 #################################### Plugins ##########################################
 
