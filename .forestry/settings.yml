@@ -16,14 +16,13 @@ sections:
   match: "**/*"
 - type: directory
   path: content/english/blog
-  label: Post (en)
+  label: Products
   create: documents
   match: "**/*"
   new_doc_ext: '20191203072044'
   templates:
   - post
   - type: heading
-  label: Products
 - type: directory
   path: content/english/products
   label: Product (en)
