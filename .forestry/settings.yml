@@ -15,15 +15,41 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite/content/english/blog
+  path: content/english/blog
   label: Post (en)
   create: documents
   match: "**/*"
   new_doc_ext: '20191203072044'
   templates:
   - post
-upload_dir: static/uploads
-public_path: "/uploads"
+  - type: heading
+  label: Products
+- type: directory
+  path: content/english/products
+  label: Product (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - product
+- type: heading
+  label: Contact
+- type: document
+  path: content/english/contact/_index.md
+  label: Contact (en)
+- type: heading
+  label: All Pages
+- type: directory
+  path: content/english
+  label: All Page (en)
+  create: all
+  match: "**/*"
+- type: heading
+  label: Configuration
+- type: document
+  path: config.toml
+  label: Configuration
+upload_dir: static/images
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
