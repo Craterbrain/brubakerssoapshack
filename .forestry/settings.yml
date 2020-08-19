@@ -4,16 +4,26 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Homepage
+- type: document
+  path: data/en/homepage.yml
+  label: Homepage (en)
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
+- type: heading
+  label: Blog Post
 - type: directory
-  path: content/english
-  label: English
-  create: all
+  path: exampleSite/content/english/blog
+  label: Post (en)
+  create: documents
   match: "**/*"
+  new_doc_ext: '20191203072044'
+  templates:
+  - post
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
