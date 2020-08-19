@@ -13,9 +13,7 @@ sections:
   path: content
   label: Pages
   create: all
-  match: "*"
-- type: heading
-  label: Blog Post
+  match: "**/*"
 - type: directory
   path: exampleSite/content/english/blog
   label: Post (en)
