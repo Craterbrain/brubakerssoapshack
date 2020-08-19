@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Brubaker&#39;s Soap Shack</title>
-    <link>https://brubakerssoapshack.com/</link>
-    <description>Recent content on Brubaker&#39;s Soap Shack</description>
+    <title>Buy Our Soap on Brubaker&#39;s Soap Shack</title>
+    <link>https://brubakerssoapshack.com/products/</link>
+    <description>Recent content in Buy Our Soap on Brubaker&#39;s Soap Shack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright>
     <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate>
     
-	<atom:link href="https://brubakerssoapshack.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://brubakerssoapshack.com/products/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -28,25 +28,6 @@
       
       <guid>https://brubakerssoapshack.com/products/product-2/</guid>
       <description>Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.</description>
-    </item>
-    
-    <item>
-      <title>How to choose the right soap.</title>
-      <link>https://brubakerssoapshack.com/blog/post-1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>https://brubakerssoapshack.com/blog/post-1/</guid>
-      <description>There are a variety of things to consider when buying our soap. We have two types of soap: Goat&amp;rsquo;s Milk &amp;amp; Farmer&amp;rsquo;s Soap.</description>
-    </item>
-    
-    <item>
-      <title>Why You Should Buy a Smart Watch.</title>
-      <link>https://brubakerssoapshack.com/blog/post-2/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>https://brubakerssoapshack.com/blog/post-2/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
     </item>
     
     <item>
