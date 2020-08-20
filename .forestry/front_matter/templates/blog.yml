@@ -16,4 +16,4 @@ fields:
   label: description
 - type: list
   name: tags
-  label: tags
+  label: Categories
