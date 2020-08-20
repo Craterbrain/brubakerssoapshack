@@ -4,6 +4,10 @@ date: 2019-10-17T11:22:16.000+06:00
 image: "/images/IMG_20200710_174501.webp"
 description:
 
+tags:
+  - soap
+  - blue
+
 ---
 There are a variety of things to consider when buying our soap. We have two types of soap: Goat's Milk & Farmer's Soap.
 
