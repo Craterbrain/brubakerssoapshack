@@ -20,3 +20,7 @@ fields:
 - type: list
   name: colors
   label: colors
+- name: tags
+  type: tag_list
+  default: []
+  label: Categories
