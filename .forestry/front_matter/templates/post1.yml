@@ -24,5 +24,6 @@ fields:
   type: tag_list
   default: []
   label: Categories
+  description: hh
 pages:
 - content/english/products/product-3.md
