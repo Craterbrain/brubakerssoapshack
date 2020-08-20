@@ -17,3 +17,5 @@ fields:
 - type: list
   name: tags
   label: Categories
+pages:
+- content/english/blog/this-is-a-test.md
