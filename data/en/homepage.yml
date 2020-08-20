@@ -76,7 +76,7 @@ products:
   title: Checkout Our All Products
 subscription:
   enable: true
-  bg_image: "/images/IMG_20200710_175024.webp"
+  bg_image: "/images/banner.webp"
   title: Get Product Updates
   content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   placeholder: youremail@example.com
