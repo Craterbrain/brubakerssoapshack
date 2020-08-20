@@ -11,6 +11,11 @@ fields:
 - type: file
   name: image
   label: image
+- name: tags
+  type: tag_list
+  default: []
+  label: Categories
+  hidden: false
 - type: text
   name: description
   label: description
