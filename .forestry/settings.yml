@@ -16,7 +16,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content/english/blog
-  label: Products
+  label: Blog
   create: documents
   match: "**/*"
   new_doc_ext: '20191203072044'
