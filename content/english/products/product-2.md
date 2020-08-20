@@ -2,10 +2,9 @@
 title: "Galaxy Watch"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/showcase/showcase-2.png"
-  - "images/showcase/showcase-1.png"
-  - "images/showcase/showcase-3.png"
-  - "images/showcase/showcase-4.png"
+  - "images/IMG_20200710_174501.webp"
+  - "images/IMG_20200710_174529.webp"
+  - "images/IMG_20200710_175020.webp"
 
 # meta description
 description : "this is meta description"
@@ -15,8 +14,7 @@ price: "30.00"
 #discount_price: "25.00"
 
 # product variation
-colors : ["black","white","gray"]
-sizes : ["small","medium","large"]
+colors : ["As Shown"]
 
 draft: false
 ---

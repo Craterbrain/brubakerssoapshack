@@ -2,10 +2,7 @@
 title: "Galaxy Watch"
 date: 2019-10-17T11:22:16+07:00
 images: 
-  - "images/showcase/showcase-2.png"
-  - "images/showcase/showcase-1.png"
-  - "images/showcase/showcase-3.png"
-  - "images/showcase/showcase-4.png"
+  - "images/IMG_20200710_180009.webp"
 
 # meta description
 description : "this is meta description"

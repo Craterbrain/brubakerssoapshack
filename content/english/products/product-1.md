@@ -3,9 +3,8 @@ title: "Farmer's Soap"
 date: 2019-10-17T11:22:16+06:00
 images: 
   - "images/IMG_20200710_173847.webp"
-  - "images/showcase/showcase-2.png"
-  - "images/showcase/showcase-3.png"
-  - "images/showcase/showcase-4.png"
+  - "images/IMG_20200710_174128.webp"
+  - "images/IMG_20200710_174344.webp"
 
 # meta description
 description : "this is meta description"
