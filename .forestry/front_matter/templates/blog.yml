@@ -26,5 +26,3 @@ fields:
     schema:
       format: markdown
   label: " "
-pages:
-- content/english/blog/this-is-a-test.md
