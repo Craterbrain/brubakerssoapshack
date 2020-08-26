@@ -1,12 +1,10 @@
+ 
 ---
-title: "About"
-date: 2020-21-17T11:22:16+06:00
-images: 
-  - "images/IMG_20200710_173847.webp"
+title: About
+description: this is a meta description
+image: "/images/IMG_20200710_175024.webp"
 
-draft: false
 ---
-
 **Who Are Are**
 
 Jason and Kimberly married in 2016 and settled in Crossville Tennessee.  It is a small town in Cumberland county Tennessee on the plateau.  In 2018 we opened our home and hearts to fostering children.  Since then 24 foster children have passed through our door.  Some stayed for only a few days, some months, some years, and some have found their forever home with us.  We were blessed to purchase our current home in 2019 and had enough space to take on our largest family yet bringing us to 12 kids, 6 ducks, and a tiny dog with big attitude.  We attend church regularly and are proud to call Pine Grove our church home.  

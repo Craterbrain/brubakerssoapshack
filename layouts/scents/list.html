@@ -7,8 +7,9 @@
     <div class="row">
       <div class="col-12 text-center mb-5">
         <h1 class="font-weight-bold">{{.Title}}</h1>
+        <h3 class="font-weight-light">{{.Description}}{{- partial "url.html" . }}</h3>
       </div>
-
+      
 
       {{ with site.Data.faq}}
       <div class="col-lg-7 offset-lg-2">
@@ -18,10 +19,10 @@
           {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
           {{ "<!-- accordion item -->" | safeHTML }}
           <div class="card mb-1 rounded-5 border-0">
-            <div class="card-header rounded-0 bg-white border p-0 border-0">
+            <div class="card-header rounded-5 bg-white border p-0 border-0">
               <a class="card-link h4 d-flex text-light mb-0 p-2 justify-content-between" data-toggle="collapse"
                 href="#collapse{{$.Scratch.Get `counter`}}">
-                <span>{{ .title | markdownify }}</span> <div class="ml-3"><i class="ti-plus h6 text-primary text-right border p-2 d-inline-block border-primary"></i></div>
+                <span>{{ .title | markdownify }}</span> <div class="ml-3"><i class="tf-ion-android-add h4 text-primary text-light p-2 d-inline-block border-primary"></i></div>
               </a>
             </div>
             <div id="collapse{{$.Scratch.Get `counter`}}" class="collapse" data-parent="#accordion">

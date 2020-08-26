@@ -11,6 +11,7 @@ $icon-font: 'themefisher-font' !important;
 /*--
     Common Css
 --*/
+
 body {
   font-size: 14px;
   font-weight: 300;
@@ -111,6 +112,11 @@ a {
     bottom: 0;
     background: rgba(0, 0, 0, 0.7);
   }
+}
+
+
+a {
+  color: #3b4045;
 }
 
 a:focus,
