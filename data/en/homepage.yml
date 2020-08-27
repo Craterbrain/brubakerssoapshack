@@ -1,11 +1,9 @@
 ---
 banner:
   enable: true
-  title: Hi William!
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima
-    hic at, nostrum nihil!
+  title: What We Sell
+  content: We make several love your body products!  Huge bath bombs with lots of fizz and aromatic soaps you are sure to love.
+    They come in a variety of scents and each bar is uniquely colored.  They are truely beautiful and very rarely will you find two bars exactly alike.
   image: images/IMG_20200710_173842.webp
   button:
     enable: true

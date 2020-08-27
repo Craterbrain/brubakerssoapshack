@@ -1,0 +1,9 @@
+banner:
+  enable: true
+  title: What We Sell
+  content: We make several love your body products!  Huge bath bombs with lots of fizz and aromatic soaps you are sure to love.
+  image: images/IMG_20200710_173842.webp
+  button:
+    enable: true
+    label: Browse All Products
+    link: products
