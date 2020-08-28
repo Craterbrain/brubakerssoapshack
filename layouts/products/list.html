@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-12 text-center mb-5">
         <h1 class="font-weight-bold">{{.Title}}</h1>
-        <h3 class="font-weight-light">{{.Description | markdownify }}</h3>
+        <h4 class="font-weight-light">{{.Description | markdownify }}</h4>
       </div>
       {{ range (where .Site.RegularPages "Section" "products") }}
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
@@ -19,7 +19,7 @@
         </div>
         <div class="product-info">
         <h4 class="mb-2">{{.Title}}</h4>
-        <h5 class="mb-2">{{ .Description }}</h5>
+        <p>{{ .Description }}</p>
         <p class="price">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
           {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
           </p>
