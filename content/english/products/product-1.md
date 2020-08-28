@@ -7,7 +7,7 @@ images:
   - "images/IMG_20200710_174344.webp"
 
 # meta description
-description : "this is meta description"
+description : "Farmer's Soap"
 
 # product Price
 price: "30.00"

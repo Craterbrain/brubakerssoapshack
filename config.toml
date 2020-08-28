@@ -92,8 +92,8 @@ weight = 4
 logo = "images/logo.png"
 logo_width = "100px"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Homemade Soaps, Bathbombs, and Lotion"
+author = "Brubakerssoapshack"
 # currency
 currency = "$"
 # contact form action
@@ -103,7 +103,7 @@ snipcart_api = "replaceme"
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use .png , .svg or .gif format
 
 # Subscription
