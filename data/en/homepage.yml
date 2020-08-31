@@ -1,108 +1,97 @@
----
-banner:
+--- 
+about_product: 
   enable: true
-  title: What We Sell
-  content: We make several love your body products!  Huge bath bombs with lots of fizz and aromatic soaps you are sure to love.
-    They come in a variety of scents and each bar is uniquely colored.  They are truely beautiful and very rarely will you find two bars exactly alike.
-  image: images/IMG_20200710_173842.webp
-  button:
+  items: 
+    - 
+      button: 
+        enable: false
+        label: "Check Features"
+        link: "#"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      image: images/IMG_20200710_173847.webp
+      title: "Lorem ipsum dolor sit amet."
+    - 
+      button: 
+        enable: false
+        label: "Check Features"
+        link: "#"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      image: images/IMG_20200710_174049.webp
+      title: "Lorem ipsum dolor sit amet."
+  title: "Why Choose Apple Watch"
+banner: 
+  button: 
     enable: true
-    label: Browse All Products
+    label: "Browse All Products"
     link: products
-features:
+  content: "We make several love your body products!  Huge bath bombs with lots of fizz and aromatic soaps you are sure to love. They come in a variety of scents and each bar is uniquely colored.  They are truely beautiful and very rarely will you find two bars exactly alike."
+  enable: true
+  image: images/IMG_20200710_173842.webp
+  title: "What We Sell"
+features: 
   enable: false
-  title: Our Core Features
   image: images/watch-2.png
-  left_side:
-  - title: Smooth Touch
-    icon: tf-ion-ios-alarm-outline
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem,
-      inventore?
-  - title: Elegant Design
-    icon: tf-ion-ios-bell-outline
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem,
-      inventore?
-  - title: Easy Pricing
-    icon: tf-ion-ios-cart-outline
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem,
-      inventore?
-  right_side:
-  - title: Smooth Touch
-    icon: tf-ion-ios-alarm-outline
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem,
-      inventore?
-  - title: Elegant Design
-    icon: tf-ion-ios-bell-outline
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem,
-      inventore?
-  - title: Easy Pricing
-    icon: tf-ion-ios-cart-outline
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem,
-      inventore?
-promo:
+  left_side: 
+    - 
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon: tf-ion-ios-alarm-outline
+      title: "Smooth Touch"
+    - 
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon: tf-ion-ios-bell-outline
+      title: "Elegant Design"
+    - 
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon: tf-ion-ios-cart-outline
+      title: "Easy Pricing"
+  right_side: 
+    - 
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon: tf-ion-ios-alarm-outline
+      title: "Smooth Touch"
+    - 
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon: tf-ion-ios-bell-outline
+      title: "Elegant Design"
+    - 
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      icon: tf-ion-ios-cart-outline
+      title: "Easy Pricing"
+  title: "Our Core Features"
+products: 
+  enable: true
+  title: "Checkout Our All Products"
+promo: 
+  button: 
+    enable: true
+    label: "Read More"
+    link: about/post-1/#/
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum. <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
   enable: true
   image: images/IMG_20200710_180256.webp
-  title: Designed by professional , the benefit for creative gigs
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore,
-    deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at
-    obcaecati dolor iure iusto omnis quis eum. <br><br> Lorem ipsum dolor sit amet,
-    consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol
-about_product:
+  title: "About Us"
+subscription: 
+  bg_image: /images/banner.webp
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
   enable: true
-  title: Why Choose Apple Watch
-  items:
-  - image: images/IMG_20200710_173847.webp
-    title: Lorem ipsum dolor sit amet.
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
-      sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis
-      magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!
-    button:
-      enable: false
-      label: Check Features
-      link: "#"
-  - image: images/IMG_20200710_174049.webp
-    title: Lorem ipsum dolor sit amet.
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
-      sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis
-      magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!
-    button:
-      enable: false
-      label: Check Features
-      link: "#"
-products:
-  enable: true
-  title: Checkout Our All Products
-subscription:
-  enable: true
-  bg_image: "/images/banner.webp"
-  title: Get Product Updates
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   placeholder: youremail@example.com
-testimonial:
+  title: "Get Product Updates"
+testimonial: 
   enable: false
-  title: Watch Review
-  testimonial_item:
-  - name: Jonathon Andrew
-    designation: CEO, Themefisher
-    image: images/avater.png
-    content: A wonderful serenity has taken possession of my entire soul, like these
-      sweet mornings of spring which I enjoy with my whole heart. I am alone, and
-      feel the charm of existence in this spot, which was created for the bliss of
-      souls like mine. I am so happy, my dear friend, so absorbed in the exquisite
-      sense of mere tranquil existence, that I neglect my talents.
-  - name: Jonathon Andrew
-    designation: CEO, Themefisher
-    image: images/avater.png
-    content: A wonderful serenity has taken possession of my entire soul, like these
-      sweet mornings of spring which I enjoy with my whole heart. I am alone, and
-      feel the charm of existence in this spot, which was created for the bliss of
-      souls like mine. I am so happy, my dear friend, so absorbed in the exquisite
-      sense of mere tranquil existence, that I neglect my talents.
-  - name: Jonathon Andrew
-    designation: CEO, Themefisher
-    image: images/avater.png
-    content: A wonderful serenity has taken possession of my entire soul, like these
-      sweet mornings of spring which I enjoy with my whole heart. I am alone, and
-      feel the charm of existence in this spot, which was created for the bliss of
-      souls like mine. I am so happy, my dear friend, so absorbed in the exquisite
-      sense of mere tranquil existence, that I neglect my talents.
+  testimonial_item: 
+    - 
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      designation: "CEO, Themefisher"
+      image: images/avater.png
+      name: "Jonathon Andrew"
+    - 
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      designation: "CEO, Themefisher"
+      image: images/avater.png
+      name: "Jonathon Andrew"
+    - 
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      designation: "CEO, Themefisher"
+      image: images/avater.png
+      name: "Jonathon Andrew"
+  title: "Watch Review"
