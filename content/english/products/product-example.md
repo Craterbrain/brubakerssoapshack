@@ -11,7 +11,7 @@ description : "Farmer's Soap"
 price: "30.00"
 #discount_price: "25.00"
 
-#colors: ["As Shown"]
+scents: ["As Shown"]
 
 draft: true
 ---
