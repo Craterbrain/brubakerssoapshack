@@ -7,7 +7,7 @@ tags:
 - soap
 - red
 description: this is meta description
-price: '30.00'
+price: '4.00'
 colors:
 - black
 - white

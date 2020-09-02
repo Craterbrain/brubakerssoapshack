@@ -10,7 +10,7 @@ images:
 description : "this is meta description"
 
 # product Price
-price: "30.00"
+price: "4.00"
 #discount_price: "25.00"
 
 colors: ["As Shown"]

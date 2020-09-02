@@ -99,7 +99,7 @@ currency = "$"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # snipcart public api key
-snipcart_api = "replaceme"
+snipcart_api = "MDhiNTdhOTItZWVkNi00MmUxLWI1ZTctZTliNzc3M2Y5MjFjNjM3MzA4OTM5NzYwNDU2MDA0"
 
 # Preloader
 [params.preloader]
