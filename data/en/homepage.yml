@@ -1,6 +1,6 @@
 --- 
 about_product: 
-  enable: true
+  enable: false
   items: 
     - 
       button: 
@@ -66,7 +66,7 @@ promo:
     enable: true
     label: "Read More"
     link: about/post-1/#/
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum. <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+  content: "Jason and Kimberly married in 2016 and settled in Crossville Tennessee.  It is a small town in Cumberland county Tennessee on the plateau. We began making soap as a school project with our oldest kiddo.  She enjoyed it and we did extra research and before ya know it we are all making soap and loving it...."
   enable: true
   image: images/IMG_20200710_180256.webp
   title: "About Us"

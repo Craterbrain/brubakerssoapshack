@@ -1,6 +1,6 @@
  
 ---
-title: About
+title: About Us
 description: this is a meta description
 image: "/images/IMG_20200710_175024.webp"
 
