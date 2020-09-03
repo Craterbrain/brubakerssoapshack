@@ -27,10 +27,26 @@
         {{ end }}
       </div>
     </div>
+    <div hidden >
+    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+      <p class="hidden">
+        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      </p>
+      <p>
+        <label>Email: <input type="text" name="email" /></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+  </div>
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <h2 class="font-weight-bold mb-4">{{ .Title | markdownify }}</h2>
-        <form name="contact" method="POST" data-netlify="true" class="row">
+        <form name="contact" method="POST" data-netlify="true" class="row" data-netlify-recaptcha="true" >
           <div class="col-lg-6 mb-3">
             <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Your Name">
           </div>
@@ -40,6 +56,9 @@
           <div class="col-12 mb-3">
             <textarea name="message" id="message" class="form-control mb-2" placeholder="Your Message"></textarea>
           </div>
+          </p>
+          <div data-netlify-recaptcha="true"></div>
+          <p>
           <div class="col-12 text-right">
             <button type="submit" value="send" class="btn btn-main btn-main-sm">{{ i18n "send" }}</button>
           </div>
