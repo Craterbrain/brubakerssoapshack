@@ -109,7 +109,7 @@ preloader = "" # use .png , .svg or .gif format
 # Subscription
 [params.subscription]
 # mailchimp subsciption
-mailchimp_form_action = "https://brubakerssoapshack.us17.list-manage.com/subscribe?u=6147b53d4613a80355065f92b&id=5c03732eb8" # replace this url with yours
+mailchimp_form_action = "https://brubakerssoapshack.us17.list-manage.com/subscribe/post?u=6147b53d4613a80355065f92b&amp;id=5c03732eb8" # replace this url with yours
 mailchimp_form_name = "b_6147b53d4613a80355065f92b_5c03732eb8" # replace this code with yours
 
 
