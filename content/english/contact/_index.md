@@ -3,23 +3,23 @@ title: "Contact"
 description : "this is a meta description"
 
 office:
-  title : "Central Office"
-  mobile : "0124857985320"
+  title : "How to Contact"
+  mobile : "9312504534"
   email : "demo@email.com"
-  location : "Dhaka, Bangladedsh"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+  location : "Crossville, Tennessee"
+  content : "If you wish to speak to us, you can call, email, or use the contact form down below"
 
-# opennig hour
-opennig_hour:
-  title : "Opening Hours"
+# opening hour
+opening_hour:
+  title : "Hours of Contact"
   day_time:
-    - "Monday: 9:00 – 19:00"
-    - "Tuesday: 9:00 – 19:00"
-    - "Wednesday: 9:00 – 19:00"
-    - "Thursday: 9:00 – 19:00"
-    - "Friday: 9:00 – 19:00"
-    - "Saturday: 9:00 – 19:00"
-    - "sunday: 9:00 – 19:00"
+    - "**Monday: 9:00am – 5:00pm**"
+    - "**Tuesday: 9:00am – 5:00pm**"
+    - "**Wednesday: 9:00am – 5:00pm**"
+    - "**Thursday: 9:00am – 5:00pm**"
+    - "**Friday: 9:00am – 5:00pm**"
+    - "**Saturday: 9:00am – 5:00pm**"
+    - "**Sunday: Closed**"
     
 draft: false
 ---
