@@ -8,17 +8,30 @@
       <div class="col-lg-6 col-md-8 text-center mx-auto">
         <h2 class="subheading text-white">{{ .title | markdownify }}</h2>
         <p class="text-white">{{ .content | markdownify }}</p>
+        <div hidden >
+          <form name="Email-sub" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <p class="hidden">
+              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            <p>
+              <label>Email: <input type="text" name="email" /></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+          </div>
         <div class="input-group">
-          <form name="Email-sub" method="POST" data-netlify="true" data-netlify-recaptcha="true" class="w-100" target="_blank">
+          <form name="Email-sub" method="POST" data-netlify="true" class="w-100" target="_blank">
             <input type="email" id="email" class="form-control" name="email" placeholder="{{ .placeholder }}"
               required>
             <button class="btn btn-main btn-submit" type="submit" name="subscribe">{{i18n "subscribe"}}</button>
             <div style="position: absolute; left: -5000px;" aria-hidden="true">
               <input type="text" name="{{ site.Params.mailchimp_form_name }}" tabindex="-1">
             </div>
-            <p class="mx-auto" style="width: 200px;">
-            <div data-netlify-recaptcha="true">test</div>
-            </p>
           </form>
         </div><!-- /input-group -->
       </div>
