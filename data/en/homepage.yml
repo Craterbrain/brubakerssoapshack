@@ -72,7 +72,7 @@ promo:
   title: "About Us"
 subscription: 
   bg_image: /images/banner.webp
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  content: "Subscribe to get updates on new soaps and special offers."
   enable: true
   placeholder: youremail@example.com
   title: "Get Product Updates"
