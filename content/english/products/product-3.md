@@ -1,21 +1,19 @@
 ---
-title: Galaxy Watch
+title: Vanilla Bean
 date: 2019-10-17T11:22:16.000+07:00
 images:
-- images/IMG_20200710_180009.webp
+- "/images/IMG_20200906_180837.webp"
+- "/images/IMG_20200906_180911.webp"
+- "/images/IMG_20200906_180957.webp"
 tags:
 - soap
-- red
-description: this is meta description
+description: Farmer's Soap
 price: '4.00'
-colors:
-- black
-- white
-- gray
+colors: []
 sizes:
 - small
 - medium
 - large
 
 ---
-Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.
+Lovely smell of vanilla with a dark brown color and a swirl of blue.
