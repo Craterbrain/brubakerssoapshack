@@ -2,7 +2,7 @@
 ################################### Default Configuration ############################
 baseurl = "https://brubakerssoapshack.com"
 title = "Brubaker's Soap Shack"
-theme = "vex-hugo"
+theme = ["hugo-search-fuse-js", "vex-hugo"]
 # post excert
 summarylength = "20"
 # google analytics
@@ -33,6 +33,9 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
+
+[[params.js.js]]
+link = ""
 
 
 ###################################### Navigation ######################################
