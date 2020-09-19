@@ -2,7 +2,7 @@
 ################################### Default Configuration ############################
 baseurl = "https://brubakerssoapshack.com"
 title = "Brubaker's Soap Shack"
-# theme = ["vex-hugo"]
+theme = ["vex-hugo", "zen"]
 # post excert
 summarylength = "20"
 # google analytics
@@ -121,5 +121,13 @@ weight = 1
 # copyright
 copyright = "All Rights Reserved [Brubaker's Soap Shack](/#/)"
 
+[outputFormats]
+
+  [outputFormats.SearchIndex]
+  mediaType = "application/json"
+  baseName = "searchindex"
+  isPlainText = true
+  notAlternative = true
+
 [outputs]
-  home = ["HTML", "JSON"]
+  home = ["HTML", "SearchIndex"]
