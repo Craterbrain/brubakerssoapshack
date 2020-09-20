@@ -1,0 +1,26 @@
+<div class="container-fluid"></div>
+
+<div class="search-input hidden input-group">
+    <form id="search-form" class="search-form w-100" action="#" method="post" accept-charset="UTF-8" role="search">
+      
+      <input type="search" id="query" name="query" class=" border border-dark search-text form-control" placeholder="{{ i18n "search_placeholder" }}" maxlength="128">
+      <button type="submit" name="submit" class="form-submit btn btn-main btn-submit" >{{ i18n "search_title" }}</button>
+    </form>
+  </div>
+
+  <div class="search-results"></div>
+
+  <template>
+    <article class="search-result list-view">
+      <header>
+        <h2 class="title title-submitted"><a href="#">Title here</a></h2>
+        <div class="submitted"><time class="created-date">Date here</time></div>
+      </header>
+      <div class="content">Summary here</div>
+    </article>
+  </template>
+
+    <p class="error message js-hidden invisible">{{ i18n "js_required" }}</p>
+    <p class="search-loading status message hidden invisible">{{ i18n "search_loading" }}</p>
+
+  </div>

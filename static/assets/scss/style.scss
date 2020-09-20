@@ -652,3 +652,51 @@ textarea.form-control {
 	line-height: 1;
 	color: $primary-color;
 }
+
+.input-search {
+  margin-top: 30px;
+  position: relative;
+
+  .btn-submit {
+    padding: 10.5px 40px !important;
+    position: absolute;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    top: 0;
+    right: -1px;
+  }
+
+  input {
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    padding-left: 15px;
+    box-shadow: none;
+    display: table-cell;
+  }
+}
+
+.search-form {
+  border: 1px solid #dadada;
+  border-radius: 35px;
+  height: 50px;
+
+  &:focus {
+    border-color: $primary-color;
+    box-shadow: none;
+  }
+
+  &::placeholder {
+    font-size: 80%;
+  }
+}
+
+
+/* search button */
+.search-bt {
+  background: transparent;
+  border: 0;
+  position: relative;
+  i{
+    font-size: 20px;
+  }
