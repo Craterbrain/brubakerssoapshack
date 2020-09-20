@@ -48,12 +48,6 @@ name = "Products"
 URL = "products"
 weight = 2
 
-# main menu
-[[menu.main]]
-name = "Scents"
-URL = "scents"
-weight = 3
-
 [[menu.main]]
 name = "About"
 URL = "about/post-1/#/"
@@ -63,6 +57,11 @@ weight = 4
 name = "Contact"
 URL = "contact"
 weight = 5
+
+[[menu.main]]
+name = "Search"
+URL = "search"
+weight = 6
 
 # footer menu
 [[menu.footer]]
