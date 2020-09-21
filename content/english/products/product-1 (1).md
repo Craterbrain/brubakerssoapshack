@@ -15,7 +15,7 @@ price: "4.00"
 
 colors: ["As Shown"]
 
-draft: false
+#draft: false
 ---
 
 placeholder
