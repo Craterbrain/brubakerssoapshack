@@ -2,7 +2,7 @@
 ################################### Default Configuration ############################
 baseurl = "https://brubakerssoapshack.com"
 title = "Brubaker's Soap Shack"
-theme = ["vex-hugo", "zen"]
+theme = ["zen", "vex-hugo"]
 # post excert
 summarylength = "20"
 # google analytics

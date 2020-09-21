@@ -1,6 +1,6 @@
 {{ if $.Param "searchform" -}}
-{{ $flexsearch := resources.Get "js/lib/flexsearch.min.js"}}
+{{ $flexsearch := resources.Get "js/lib/flexsearch.min.js" | fingerprint -}}
 <script defer src="{{ $flexsearch.RelPermalink }}"></script>
-{{ $search := resources.Get "js/search.js" | resources.ExecuteAsTemplate "js/search.js" . | minify -}}
+{{ $search := resources.Get "js/search.js" | resources.ExecuteAsTemplate "js/search.js" . | minify | fingerprint -}}
 <script defer src="{{ $search.RelPermalink }}"></script>
 {{ end -}}
