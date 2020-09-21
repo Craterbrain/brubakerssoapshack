@@ -1,7 +1,7 @@
  
 [build]
   publish = "public"
-  command = "hugo --gc --minify -b"
+  command = "hugo --gc --minify -b https://brubakerssoapshack.com/"
   
 [build.environment]
   HUGO_VERSION = "0.74.3"
