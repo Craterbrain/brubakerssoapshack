@@ -14,8 +14,8 @@ price: "30.00"
 
 price: '4.00'
 
-# In OZs  Only put in numbers, oz added automatically
-weight: '4'
+# In Grams  Only put in numbers 1oz=28.35 1.5oz=42.52 4oz=113.4
+weight: '113.4'
 
 draft: true
 ---
