@@ -22,7 +22,7 @@
         {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
         </p>
         <button class="snipcart-add-item btn btn-main mb-5" 
-          data-item-id="{{.Title | urlize}}__{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}"
+          data-item-id="{{.Title | urlize}}-{{.Params.weight}}-{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}"
           data-item-name="{{.Title}}"
           data-item-weight="{{.Params.weight}}"
           data-item-image="{{range first 1 .Params.Images}}{{. | absURL}}{{end}}"

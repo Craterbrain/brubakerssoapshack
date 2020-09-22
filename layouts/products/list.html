@@ -6,7 +6,8 @@
       <div class="col-12 text-center mb-5">
         <h1 class="font-weight-bold">{{.Title}}</h1>
         <h4 class="font-weight-light">{{.Description | markdownify }}</h4>
-        <a href = "/scents" class="btn btn-main" >Our Scents</a>
+        <p style="padding-top: 4px;"></p>
+        <a href = "/scents" class="btn btn-main">Our Scents</a>
       </div>
       {{ range (where .Site.RegularPages "Section" "products") }}
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">

@@ -21,3 +21,6 @@ draft: true
 ---
 
 placeholder
+
+
+{{< weight-disclaimer >}}
