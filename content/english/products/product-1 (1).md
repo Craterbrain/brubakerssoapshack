@@ -13,7 +13,8 @@ description : "this is meta description"
 price: "4.00"
 #discount_price: "25.00"
 
-weight: '113.4'
+weight: 
+- 113.4
 #draft: false
 ---
 
