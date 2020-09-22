@@ -9,9 +9,13 @@ description : "Farmer's Soap"
 
 # product Price
 price: "30.00"
+#uncomment line below for discount price to show
 #discount_price: "25.00"
 
-scents: ["As Shown"]
+price: '4.00'
+
+# In OZs  Only put in numbers, oz added automatically
+weight: '4'
 
 draft: true
 ---

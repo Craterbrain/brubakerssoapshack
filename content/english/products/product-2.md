@@ -6,8 +6,7 @@ images:
 - "/images/IMG_20200906_180352.webp"
 description: Farmer's Soap
 price: '4.00'
-colors:
-- As Shown
+weight: '4'
 
 ---
 The fresh smell of crisp autumn air. Colored white with blue and red swirl.
