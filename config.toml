@@ -22,7 +22,7 @@ link = "plugins/themefisher-font/themefisher-font.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.min.css"
 [[params.plugins.css]]
-link = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.css"
+link = "https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -32,7 +32,7 @@ link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
-link = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
+link = "https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.js"
 
 ###################################### Navigation ######################################
 
