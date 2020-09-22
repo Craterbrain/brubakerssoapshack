@@ -8,6 +8,6 @@ tags:
 - soap
 description: Farmer's Soap
 price: '4.00'
-weight: '4'
+weight: '113.4'
 ---
 The salty scent of the sea with coloring of white, blue, and pink.
