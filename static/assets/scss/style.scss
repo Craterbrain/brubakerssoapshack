@@ -201,24 +201,6 @@ a:active {
   background-color: $primary-color;
 }
 
-.card {
-  color: #fff;
-  border-radius: 30px;
-  font-size: 18px;
-  padding: 5px 15px;
-
-  background-color: $primary-color;
-  box-shadow: 0 15px 40px rgba(54, 54, 52, 0.502);
-  background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
-
-  &:hover,
-  &:focus {
-    background-color: $primary-color;
-    color: #fff;
-  }
-}
-
-
 .btn {
   border-radius: 0;
 }
@@ -689,4 +671,22 @@ textarea.form-control {
   &::placeholder {
     font-size: 80%;
   }
+}
+
+.card {
+  color: #fff;
+  border-radius: 30px;
+  font-size: 18px;
+
+  background-color: $primary-color;
+  box-shadow: 0 15px 40px rgba(54, 54, 52, 0.502);
+  background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
+
+  &:hover,
+  &:focus {
+    background-color: $primary-color;
+    color: #fff;
+  }
+
+
 }

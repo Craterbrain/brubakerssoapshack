@@ -1,5 +1,5 @@
  
-faqItem:
+scentsItem:
   - title : Autumn Day
     content : Inspired by the fresh air and brilliant colors of a stroll through a secluded wood in autumn with notes of oak, citrus and golden amber.
 
@@ -15,6 +15,12 @@ faqItem:
   - title : Bow Tie & Bourbon
     content : Dark Oak, Bergamot, Hint of Bourbon
 
+  - title : Country Lemonade
+    content : Pucker up to sparkling splashes of this citrus delight with luscious accords of juicy lemon, tangy citron zest, and sweet clementine!
+
+  - title : Cozy Flannel
+    content : The smell of warm flannel on a cold winter's day.
+
   - title : Christmas Cookie
     content : A sweet, buttery, vanilla cookie.
 
@@ -23,12 +29,6 @@ faqItem:
 
   - title : Georgia Peaches
     content : Freshly sliced ripe and juicy Georgia peach
-
-  - title : Country Lemonade
-    content : Pucker up to sparkling splashes of this citrus delight with luscious accords of juicy lemon, tangy citron zest, and sweet clementine!
-
-  - title : Cozy Flannel
-    content : The smell of warm flannel on a cold winter's day.
 
   - title : Fresh Cut Grass
     content : A fresh bouquet reminiscent of a luscious green lawn that has just been mowed.
@@ -42,11 +42,11 @@ faqItem:
   - title : Maple Glazed Bacon
     content : A mixture of a maple bacon (you can defiantly smell the maple) and a BBQ smell. A very intriguing fragrance that smell like nothing else.
 
+  - title : Sweater Weather
+    content : A burst of fresh air tingles with mint as it opens this festive blend, Snow covered pine needles are sweetened with winter berries and laced with wood notes that lead to the velvet mossy undertone. Lingering sweetness of vanilla musk finishes the scent.
+
   - title : Vermont Honey Apple
     content : Sweet apple, Anjou pear and ripe nectarine paired with honey butter, vanilla sugar, coconut milk and soft musk.
-
-#  - title : 
-#    content : 
 
   - title : Tobacco
     content : Delectable creamy vanilla and dark brown sugar mix together with smoky tobacco and mahogany woods.
