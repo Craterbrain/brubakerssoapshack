@@ -2,8 +2,8 @@
 title: " Christmas Cheer 3.5oz"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/christmas-cheer.webp"
-  - "images/christmas-cheer-3.5.webp"
+- "images/christmas-cheer.webp"
+- "images/christmas-cheer-3.5.webp"
 
 # Kind of soap or product
 description : "Farmer's Soap"
