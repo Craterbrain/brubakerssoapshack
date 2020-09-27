@@ -5,8 +5,8 @@ images:
 - "/images/sweater-weather.webp"
 - "/images/IMG_20200906_180352.webp"
 description: Farmer's Soap
-price: '3.50'
-weightoz: '2.5oz'
+price: '3.00'
+
 weight: 71
 
 ---

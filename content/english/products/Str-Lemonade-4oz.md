@@ -7,7 +7,7 @@ images:
 - "/images/str-lemonade-2.webp"
 description: Farmer's Soap
 price: '4.00'
-weightoz: '4oz'
+
 weight: 113.4
 ---
 Tangy strawberry lemonade beautifully colored pink and yellow.

@@ -6,7 +6,7 @@ images:
 - "/images/IMG_20200906_180352.webp"
 description: Farmer's Soap
 price: '4.00'
-weightoz: '3.5oz'
+
 weight: 100
 
 ---

@@ -8,7 +8,7 @@ tags:
 - soap
 description: Farmer's Soap
 price: '5.00'
-weightoz: '5oz'
+
 weight: 142
 ---
 Lovely smell of vanilla with a dark brown color and a swirl of blue.
