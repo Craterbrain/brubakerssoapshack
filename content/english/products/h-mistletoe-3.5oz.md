@@ -9,7 +9,7 @@ images:
 description : "Farmer's Soap"
 
 # product Price
-price: "4.00"
+price: "3.50"
 #discount_price: "25.00"
 
 weight: 99.2
