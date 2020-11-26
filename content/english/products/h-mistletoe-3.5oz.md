@@ -13,7 +13,7 @@ price: "3.50"
 #discount_price: "25.00"
 
 weight: 99.2
-#draft: true
+draft: true
 ---
 
 placeholder

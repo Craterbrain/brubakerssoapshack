@@ -15,7 +15,7 @@ price: "3.00"
 
 # In Grams  Only put in numbers 1oz=28.35 1.5oz=42.52 4oz=113.4
 weight: 70.87
-#draft: true
+draft: true
 ---
 
 A robust holiday blend of spices such as cinnamon, clove and nutmeg accented by orange and vanilla.

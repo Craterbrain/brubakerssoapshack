@@ -9,6 +9,8 @@ price: '3.00'
 
 weight: 71
 
+
+draft: true
 ---
 The fresh smell of crisp autumn air. Colored white with blue and red swirl.
 
