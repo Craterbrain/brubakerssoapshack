@@ -23,6 +23,8 @@ link = "plugins/themefisher-font/themefisher-font.min.css"
 link = "plugins/slick/slick.min.css"
 [[params.plugins.css]]
 link = "https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.css"
+[[params.plugins.css]]
+link = "plugins/gallery/magnific-popup.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -33,10 +35,21 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.js"
-[[params.plugins.js]]
-link = "plugins/gallery/main.js"
-[[params.plugins.js]]
-link = "plugins/gallery/modernizr.custom.js"
+# [[params.plugins.js]]
+# link = "plugins/gallery/main.js"
+# [[params.plugins.js]]
+# link = "plugins/gallery/jquery.min.js"
+# [[params.plugins.js]]
+# link = "plugins/gallery/jquery.poptrox.min.js"
+# [[params.plugins.js]]
+# link = "plugins/gallery/skel.min.js"
+# [[params.plugins.js]]
+# link = "plugins/gallery/util.js"
+# [[params.plugins.js]]
+# link = "plugins/gallery/jquery.magnific-popup.js"
+# [[params.plugins.js]]
+# link = "plugins/gallery/jquery.magnific-popup.min.js"
+
 
 ###################################### Navigation ######################################
 
