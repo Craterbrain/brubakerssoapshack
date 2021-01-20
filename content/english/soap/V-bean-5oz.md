@@ -17,5 +17,3 @@ Lovely smell of vanilla with a dark brown color and a swirl of blue.
 
 
 
-
-{{< weight-disclaimer >}}

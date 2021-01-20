@@ -25,5 +25,3 @@ weight: 142
 Tangy strawberry lemonade beautifully colored pink and yellow.
 
 
-
-{{< weight-disclaimer >}}
