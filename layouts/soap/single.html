@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+<div class="tz-gallery">
+
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 mb-4 mb-md-0">
+      
+        <!-- product image slider -->
+        <div class="product-image-slider">
+          {{ range .Params.images }}
+          <div class="col-sm-12 col-md-4">
+            <a class="lightbox" href="{{ . | absURL }}">
+                <img class="img-fluid w-100" src="{{ . | absURL }}" alt="Bridge">
+               <!-- <i><svg width="1024" height="1024" viewBox="0 0 1024 1024" style="margin-left: calc(50% - 0.5em)"><g transform="scale(0.03125 0.03125)"><path d="M1024 0h-416l160 160-192 192 96 96 192-192 160 160z"></path><path d="M1024 1024v-416l-160 160-192-192-96 96 192 192-160 160z"></path><path d="M0 1024h416l-160-160 192-192-96-96-192 192-160-160z"></path><path d="M0 0v416l160-160 192 192 96-96-192-192 160-160z"></path></g></svg></i> -->
+            </a>
+          </div>
+        
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-7 offset-lg-1">
+        <h1 class="mb-4">{{ .Title }}</h1>
+        <div class="content">{{.Content}}</div>
+<!--        <p><strong>Scent(s):</strong> {{ with .Params.scents }}{{ delimit . ", "}}{{ end }}</p> -->        
+<!--        <p><strong>Sizes:</strong> {{ with .Params.sizes }}{{ delimit . ", "}}{{ end }}</p> -->
+        <p class="price py-4">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
+        {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
+        </p>
+        <button class="snipcart-add-item btn btn-main mb-5" 
+          data-item-id="{{.Title | urlize}}-{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}"
+          data-item-name="{{.Title}}"
+          data-item-weight="{{.Params.weight}}"
+          data-item-image="{{range first 1 .Params.Images}}{{. | absURL}}{{end}}"
+          data-item-price="{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}" data-item-url="{{.Permalink}}"
+          
+          {{ if .Params.colors }}
+          data-item-custom1-name="Choose Color"
+          data-item-custom1-options="{{range $index, $element:= .Params.colors}}{{ if eq $index 0 }}{{. | title}}{{ else }}|{{. | title }}{{end}}{{end}}"
+          {{ end }}
+          {{ if .Params.sizes }}
+          data-item-custom2-name="Choose Size"
+          data-item-custom2-options="{{range $index, $element:= .Params.sizes}}{{if eq $index 0}}{{. | title}}{{else}}|{{. | title}}{{end}}{{end}}"
+          {{end}}>{{i18n "add_to_cart"}}
+        </button>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

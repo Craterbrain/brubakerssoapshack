@@ -26,6 +26,9 @@
 {{ range site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
 {{ end }}
+<script>
+  baguetteBox.run('.tz-gallery');
+</script>
 
 <!-- Main Script -->
 {{ $script := resources.Get "js/script.js" }}

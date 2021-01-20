@@ -59,7 +59,7 @@ features:
       title: "Easy Pricing"
   title: "Our Core Features"
 products: 
-  enable: true
+  enable: false
   title: "Checkout Our All Products"
 promo: 
   button: 

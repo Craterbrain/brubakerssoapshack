@@ -7,6 +7,9 @@ images:
 # Kind of soap or product
 description : "Farmer's Soap"
 
+tags:
+- soap
+
 # product Price
 price: "30.00"
 #uncomment line below for discount price to show

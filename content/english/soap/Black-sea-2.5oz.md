@@ -3,7 +3,7 @@ title: Black Sea 2.5oz
 date: 2019-10-17T11:22:16.000+07:00
 images:
 - "/images/black-sea.webp"
-- "/images/IMG_20200906_180551.webp"
+- "/images/black-sea-4.webp"
 tags:
 - soap
 description: Farmer's Soap

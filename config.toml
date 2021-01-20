@@ -24,7 +24,9 @@ link = "plugins/slick/slick.min.css"
 [[params.plugins.css]]
 link = "https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.css"
 [[params.plugins.css]]
-link = "plugins/gallery/magnific-popup.css"
+link = "https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -35,8 +37,8 @@ link = "plugins/bootstrap/bootstrap.min.js"
 link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.js"
-# [[params.plugins.js]]
-# link = "plugins/gallery/main.js"
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"
 # [[params.plugins.js]]
 # link = "plugins/gallery/jquery.min.js"
 # [[params.plugins.js]]
