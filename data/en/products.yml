@@ -10,5 +10,5 @@ bathbombs:
 
 
 lotion: 
-  enable: true
+  enable: false
   title: "Lotion"
