@@ -40,6 +40,8 @@
   </div>
 </section>
 
+{{ end }}
+
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{ if $data.products.bathbombs.enable }}
@@ -73,7 +75,7 @@
   </div>
 </section>
 
-
+{{ end }}
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
@@ -104,7 +106,5 @@
   </div>
 </section>
 
-{{ end }}
-{{ end }}
 {{ end }}
 {{ end }}

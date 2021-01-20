@@ -1,9 +1,9 @@
 ---
-title: "Dragon Fruit"
+title: "Dragon Fruit Bottle"
 date: 2020-01-17T11:22:16+06:00
 images: 
-  - "images/L-dragon-fruit.webp"
-  - "images/L-dragon-fruit.webp"
+  - "images/L-dragon-fruit-bottle.webp"
+  - "images/L-dragon-fruit-bottle.webp"
 
 tags:
 - lotion
@@ -15,7 +15,7 @@ tags:
 description : "Lotion"
 
 # product Price
-price: "4.00"
+price: "3.00"
 #uncomment line below for discount price to show
 #discount_price: "25.00"
 
