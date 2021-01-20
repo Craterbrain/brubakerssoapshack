@@ -1,0 +1,13 @@
+soap: 
+  enable: true
+  title: "Soap"
+
+
+bathbombs: 
+  enable: false
+  title: "Bath Bombs"
+
+
+lotion: 
+  enable: true
+  title: "Lotion"

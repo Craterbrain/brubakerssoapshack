@@ -53,13 +53,18 @@
 
         <div class="product-slider">
           {{ range (where .Site.RegularPages "Section" "bath-bombs") }}
-          <div class="block">
-            <div class="gallery-overlay">
-              <a href="{{ .Permalink }}" class="gallery-popup">
-                <i class="tf-ion-android-open"></i>
-              </a>
+          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="block">
+              <div class="gallery-overlay">
+                <a href="{{ .Permalink }}" class="gallery-popup">
+                  <i class="tf-ion-android-open"></i>
+                </a>
+              </div>
+              <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
             </div>
-            <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
+            <div class="product-info">
+            <h4 class="mb-2">{{.Title}}</h4>
+            </div>
           </div>
           {{ end }}
         </div>
@@ -68,36 +73,38 @@
   </div>
 </section>
 
-{{ end }}
+
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{ if $data.products.lotion.enable }}
-<section class="gallery" id="products">
+<section class="section gallery">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-5">
         <a href="/lotion"><h1 class="font-weight-bold">{{ $data.products.lotion.title | markdownify }}</h1>
         <h3>See All</h3></a>
       </div>
-
-        <div class="product-slider">
-          {{ range (where .Site.RegularPages "Section" "lotion") }}
-          <div class="block">
-            <div class="gallery-overlay">
-              <a href="{{ .Permalink }}" class="gallery-popup">
-                <i class="tf-ion-android-open"></i>
-              </a>
-            </div>
-            <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
+      {{ range (where .Site.RegularPages "Section" "lotion") }}
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="block">
+          <div class="gallery-overlay">
+            <a href="{{ .Permalink }}" class="gallery-popup">
+              <i class="tf-ion-android-open"></i>
+            </a>
           </div>
-          {{ end }}
+          <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
+        </div>
+        <div class="product-info">
+        <h4 class="mb-2">{{.Title}}</h4>
         </div>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
 
+{{ end }}
 {{ end }}
 {{ end }}
 {{ end }}
