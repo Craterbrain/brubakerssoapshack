@@ -1,6 +1,6 @@
 ---
 title: ""
-description : "Currently restocking. please check back in a few days. 
+description : "We are grateful for your business. Please be patient as we add more variety. 
  "
 draft: false
 ---
