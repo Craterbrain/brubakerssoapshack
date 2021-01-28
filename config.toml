@@ -39,8 +39,6 @@ link = "plugins/slick/slick.min.js"
 link = "https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.js"
 [[params.plugins.js]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"
-[[params.plugins.js]]
-link = "plugins/webp/modernizr-webp.js"
 # [[params.plugins.js]]
 # link = "plugins/gallery/jquery.poptrox.min.js"
 # [[params.plugins.js]]

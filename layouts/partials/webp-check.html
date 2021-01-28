@@ -1,13 +1,9 @@
 
+{{ $script := resources.Get "js/modernizr-webp.js" }}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="{{ $script.Permalink }}"></script>
 <script>
-('webp', function(result) {
-  if (result) {
-    // supported
-  } else {
-    document.getElementById("webp-message").style.display = "block";
-  }
-});
+
+  if (Modernizr.webp)
+  Swal.fire("Your browser does not support our image format. On iOS update to ver. 14 or greater. On desktop try using Chrome or Firefox.")
 </script>
-  <div class="webp-message alert alert-warning font-weight-bold text-center" role="alert">
-    Your browser does not support our image format. On iOS update to ver. 14 or greater. On desktop try using Chrome or Firefox.
-  </div>
