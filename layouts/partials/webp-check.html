@@ -3,7 +3,9 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <script src="{{ $script.Permalink }}"></script>
 <script>
-
-  if (Modernizr.webp)
-  Swal.fire("Your browser does not support our image format. On iOS update to ver. 14 or greater. On desktop try using Chrome or Firefox.")
+Modernizr.on('webp', function(result) {
+  if (!result) {
+    Swal.fire("Your browser does not support our image format. On iOS update to ver. 14 or greater. On desktop try using Chrome or Firefox.")
+  }
+});
 </script>
