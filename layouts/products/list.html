@@ -14,33 +14,37 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{ if $data.products.soap.enable }}
-<section class="section gallery">
+<section class="gallery" id="products">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-5">
-        <a href="/soap"><h1 class="font-weight-bold">{{ $data.products.soap.title | markdownify }}</h1>
-        <h3>See All</h3></a>
-      </div>
-      {{ range (where .Site.RegularPages "Section" "soap") }}
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <div class="block">
-          <div class="gallery-overlay">
-            <a href="{{ .Permalink }}" class="gallery-popup">
-              <i class="tf-ion-android-open"></i>
-            </a>
+      <div class="col-md-12">
+        <div class="heading pt-5">
+          <a href="/soap"><h1 class="font-weight-bold">{{ $data.products.soap.title | markdownify }}</h1>
+            <h3>See All</h3></a>
+        </div>
+
+        <div class="product-slider">
+          {{ range (where .Site.RegularPages "Section" "soap") }}
+          <div>
+          <div class="block">
+            <div class="gallery-overlay">
+              <a href="{{ .Permalink }}" class="gallery-popup">
+                <i class="tf-ion-android-open"></i>
+              </a>
+            </div>
+            <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
           </div>
-          <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
+          <div class="product-info">
+            <h4 class="mb-2">{{.Title}}</h4>
+            <p>{{ .Description }}</p>
+          </div>
         </div>
-        <div class="product-info">
-        <h4 class="mb-2">{{.Title}}</h4>
-        <p>{{ .Description }}</p>
+          {{ end }}
         </div>
       </div>
-      {{ end }}
     </div>
   </div>
 </section>
-
 {{ end }}
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
@@ -49,22 +53,23 @@
 <section class="gallery" id="products">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-5">
-        <a href="/bath-bombs"><h1 class="font-weight-bold">{{ $data.products.bathbombs.title | markdownify }}</h1>
-        <h3>See All</h3></a>
-      </div>
+      <div class="col-md-12">
+        <div class="heading pt-5">
+          <a href="/bath-bombs"><h1 class="font-weight-bold">{{ $data.products.bathbombs.title | markdownify }}</h1>
+            <h3>See All</h3></a>
+        </div>
 
         <div class="product-slider">
-          {{ range (where .Site.RegularPages "Section" "bath-bombs") }}
-          <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-            <div class="block">
-              <div class="gallery-overlay">
-                <a href="{{ .Permalink }}" class="gallery-popup">
-                  <i class="tf-ion-android-open"></i>
-                </a>
-              </div>
-              <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
+          {{ range (where .Site.RegularPages "Section" "bathbombs") }}
+          <div>
+          <div class="block">
+            <div class="gallery-overlay">
+              <a href="{{ .Permalink }}" class="gallery-popup">
+                <i class="tf-ion-android-open"></i>
+              </a>
             </div>
+            <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
+          </div>
             <div class="product-info">
             <h4 class="mb-2">{{.Title}}</h4>
             <p>{{ .Description }}</p>
@@ -76,38 +81,44 @@
     </div>
   </div>
 </section>
-
 {{ end }}
+
+
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
 {{ if $data.products.lotion.enable }}
-<section class="section gallery">
+<section class="gallery" id="products">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-5">
-        <a href="/lotion"><h1 class="font-weight-bold">{{ $data.products.lotion.title | markdownify }}</h1>
-        <h3>See All</h3></a>
-      </div>
-      {{ range (where .Site.RegularPages "Section" "lotion") }}
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <div class="block">
-          <div class="gallery-overlay">
-            <a href="{{ .Permalink }}" class="gallery-popup">
-              <i class="tf-ion-android-open"></i>
-            </a>
+      <div class="col-md-12">
+        <div class="heading pt-5">
+          <a href="/lotion"><h1 class="font-weight-bold">{{ $data.products.lotion.title | markdownify }}</h1>
+            <h3>See All</h3></a>
+        </div>
+
+        <div class="product-slider">
+          {{ range (where .Site.RegularPages "Section" "lotion") }}
+          <div>
+          <div class="block">
+            <div class="gallery-overlay">
+              <a href="{{ .Permalink }}" class="gallery-popup">
+                <i class="tf-ion-android-open"></i>
+              </a>
+            </div>
+            <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
           </div>
-          <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
-        </div>
-        <div class="product-info">
-        <h4 class="mb-2">{{.Title}}</h4>
-        <p>{{ .Description }}</p>
+            <div class="product-info">
+            <h4 class="mb-2">{{.Title}}</h4>
+            <p>{{ .Description }}</p>
+            </div>
+          </div>
+          {{ end }}
         </div>
       </div>
-      {{ end }}
     </div>
   </div>
 </section>
-
 {{ end }}
+
 {{ end }}
