@@ -27,7 +27,7 @@ weight: 113.4
 ---
 
 
-A hot Latte with lots of frothed milk and a dash of vanilla.
+Made with real coffee and coffee grounds mixed in to help invigorate your skin!  This soap has a sweet rich vanilla scent with a light undertone of coffee!
 
 
 
