@@ -27,8 +27,7 @@ weight: 113.4
 ---
 
 
-Inspired by the fresh air and brilliant colors of a stroll through a secluded wood in autumn with notes of oak, citrus and golden amber.
-
+A hot Latte with lots of frothed milk and a dash of vanilla.
 
 
 
