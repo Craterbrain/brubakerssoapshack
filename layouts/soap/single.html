@@ -1,19 +1,19 @@
 {{ define "main" }}
 
-<div class="tz-gallery">
+<div class="gallery">
 
 
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 mb-4 mb-md-0">
+      <div class="col-md-4 mb-md-auto">
       
         <!-- product image slider -->
         <div class="product-image-slider">
           {{ range .Params.images }}
-          <div class="col-sm-12 col-md-4">
+          <div class="col-sm-12 col-lg-4">
             <a class="lightbox" href="{{ . | absURL }}">
-                <img class="img-fluid w-100" src="{{ . | absURL }}" alt="Bridge">
+                <img class="img-fluid w-100" src="{{ . | absURL }}" alt="{{ . }}">
                <!-- <i><svg width="1024" height="1024" viewBox="0 0 1024 1024" style="margin-left: calc(50% - 0.5em)"><g transform="scale(0.03125 0.03125)"><path d="M1024 0h-416l160 160-192 192 96 96 192-192 160 160z"></path><path d="M1024 1024v-416l-160 160-192-192-96 96 192 192-160 160z"></path><path d="M0 1024h416l-160-160 192-192-96-96-192 192-160-160z"></path><path d="M0 0v416l160-160 192 192 96-96-192-192 160-160z"></path></g></svg></i> -->
             </a>
           </div>
@@ -50,5 +50,5 @@
     </div>
   </div>
 </section>
-
+</div>
 {{ end }}
