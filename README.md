@@ -3,4 +3,4 @@
 
 ## Licensing
 Original theme created by Themefisher
-[Creative Commons Attribution 3.0 (CC-BY-3.0) License](https://github.com/themefisher/vex-hugo#licensing)
+[MIT License](https://github.com/themefisher/vex-hugo#licensing)
